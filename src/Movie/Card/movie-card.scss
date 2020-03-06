@@ -1,0 +1,11 @@
+ .movie-card {
+     display: grid;
+     grid-column: span 1;
+     grid-row: span 3;
+     grid-template-rows: 160px 40px 80px;
+     background: black;
+     padding: 4px;
+     img {
+         width: 100%;
+     }
+ }
